@@ -31,23 +31,23 @@ Analysis Using Excel What-If Tools:
 * Data Table: Used to explore how different response rates from 3% to 10% impact the total profit.
 * Goal Seek: Applied to determine the break-even response rate where total profit equals $0.
 
-## Answers
+### Answers
 
-1. How does a change in the response rate affect profit?
+#### How does a change in the response rate affect profit?
 
 From the "WHAT IF ANALYSIS: Data Table" in the spreadsheet:
 
 As the response rate increases, the profit also increases. The relationship between response rate and profit is direct; higher response rates lead to higher profits. This is evident in the shift from a negative profit at lower response rates (3% results in a loss of $21,600) to positive profits at higher response rates (10% yields a profit of $33,000).
 
-2. For what response rate does the company break even?
+#### For what response rate does the company break even?
 
-The company breaks even at a response rate of approximately 5.77%. This is indicated in the "WHEN DOES THE COMPANY BREAK EVEN ?" section on the spreadsheet, which shows that at this response rate, the total costs and total revenue are equal, resulting in zero profit.
+The company breaks even at a response rate of approximately 5.77%. (Goal Seek)
 
-3. If the company estimates a response rate of 3%, should it proceed with the mailing?
+#### If the company estimates a response rate of 3%, should it proceed with the mailing?
 
 Based on the data table in the spreadsheet, at a 3% response rate, the company faces a loss of $21,600. Therefore, it would not be advisable for the company to proceed with the mailing if a 3% response rate is the best estimate. Proceeding would lead to a financial loss rather than a profit.
 
-4. How does the presence of uncertainty affect the usefulness of the model?
+#### How does the presence of uncertainty affect the usefulness of the model?
 
 The presence of uncertainty, especially in estimating response rates and variable costs, can significantly affect the model’s accuracy and reliability. If the actual figures deviate from the estimates (such as actual response rates being lower than estimated), the company could end up with unexpected financial outcomes. Uncertainty in the model requires careful risk management and possibly creating more conservative estimates or running multiple scenarios to cover a range of possible outcomes. This allows the company to better prepare for fluctuations and uncertainties in the actual campaign results.
     
