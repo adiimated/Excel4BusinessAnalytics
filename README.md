@@ -5,7 +5,9 @@ This project involves developing a dynamic financial model for the Quality Sweat
 
 Let us take a look into the questions we would be answering and the information we have:
 
-The Quality Sweater Company sells hand-knitted sweaters.  The company is planning to print a catalog of its products and undertake a direct mail campaign.  The cost of printing the catalog is $20,000 plus $.10 per catalog.  The cost of mailing each catalog (including postage, order forms, and buying names from a mail-order database) is $0.15. In addition, the company plans to include direct reply envelopes in its mailing and incurs a $.20 in extra costs for each direct mail envelope used by a respondent.  The average size of a customer order is $40, and the company’s variable cost per order (primarily due to labor and material costs) averages about 80% of the order’s value – that is $32. The company plans to mail 100,000 catalogs.  It wants to develop a spreadsheet model to answer the following questions:
+The Quality Sweater Company sells hand-knitted sweaters.  The company is planning to print a catalog of its products and undertake a direct mail campaign.  The cost of printing the catalog is $20,000 plus $.10 per catalog.  The cost of mailing each catalog (including postage, order forms, and buying names from a mail-order database) is $0.15. 
+
+In addition, the company plans to include direct reply envelopes in its mailing and incurs a $.20 in extra costs for each direct mail envelope used by a respondent.  The average size of a customer order is $40, and the company’s variable cost per order (primarily due to labor and material costs) averages about 80% of the order’s value – that is $32. The company plans to mail 100,000 catalogs.  It wants to develop a spreadsheet model to answer the following questions:
 
 * How does a change in the response rate affect profit?
 * For what response rate does the company break even?
