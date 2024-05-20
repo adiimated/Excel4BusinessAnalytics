@@ -1,1 +1,1 @@
-# Excel4BusinessAnalytics
+# Excel For Business Analytics
