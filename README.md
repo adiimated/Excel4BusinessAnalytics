@@ -31,11 +31,11 @@ Analysis Using Excel What-If Tools:
 * Data Table: Used to explore how different response rates from 3% to 10% impact the total profit.
 * Goal Seek: Applied to determine the break-even response rate where total profit equals $0.
 
+![Quality Sweater Company](https://github.com/adiimated/Excel4BusinessAnalytics/blob/main/images/Quality%20Sweater%20Company.png)
+
 ### Answers
 
 #### How does a change in the response rate affect profit?
-
-From the "WHAT IF ANALYSIS: Data Table" in the spreadsheet:
 
 As the response rate increases, the profit also increases. The relationship between response rate and profit is direct; higher response rates lead to higher profits. This is evident in the shift from a negative profit at lower response rates (3% results in a loss of $21,600) to positive profits at higher response rates (10% yields a profit of $33,000).
 
