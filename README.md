@@ -79,6 +79,8 @@ We are trying to answer these questions:
 * How does the optimal price depend on the unit cost of producing a set of clubs?
 * Is the model an accurate representation of reality?
 
+![MAPE](https://github.com/adiimated/Excel4BusinessAnalytics/blob/main/images/MAPE.png)
+
 We used Excel to insert trendlines into scatter plots of price vs. demand, testing three different models:
 
 * Linear: \[ y = mx + b \]
@@ -91,11 +93,15 @@ From these, we determined that the Power model provided the best fit based on th
 
 #### Assuming the unit cost of producing a set of clubs is $250, and the price must be a multiple of $10, what price should the company charge to maximize its profit?
 
-From the data table in the spreadsheet, the optimal price for maximizing profit when the unit cost is $250 per set of clubs appears to be $400. At this price, the calculated profit is $955,163.26, which is the highest among the prices tested. This result comes from the one-way data table analysis, which assessed various potential selling prices against their corresponding profits.
+From the data table in the spreadsheet, the optimal price for maximizing profit when the unit cost is $250 per set of clubs appears to be $530. At this price, the calculated profit is $1,042,213 , which is the highest among the prices tested. This result comes from the one-way data table analysis, which assessed various potential selling prices against their corresponding profits.
+
+![One Way Table](https://github.com/adiimated/Excel4BusinessAnalytics/blob/main/images/One%20way%20Table.png)
 
 #### How does the optimal price depend on the unit cost of producing a set of clubs?
 
 The two-way data table in the spreadsheet provides insight into how the optimal price point shifts with varying unit costs. From the analysis, it is evident that as the unit cost increases, the optimal price also tends to increase. This is due to the need to cover higher costs while still trying to maximize profit. For example, if the unit cost rises from $250 to $300, $350, or even $400, the corresponding optimal selling price increases, demonstrating a direct dependence of the selling price on the unit cost. However, it's also clear that increasing the unit cost reduces the overall profit, as the highest profits are observed at lower unit costs.
+
+![Two Way Table](https://github.com/adiimated/Excel4BusinessAnalytics/blob/main/images/Two%20Way%20Table.png)
 
 #### Is the model an accurate representation of reality?
 
