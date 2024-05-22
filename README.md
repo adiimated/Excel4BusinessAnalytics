@@ -101,8 +101,6 @@ The two-way data table in the spreadsheet provides insight into how the optimal 
 
 The model used here, specifically the Power model chosen based on lower average absolute percent error, provides a reasonable approximation of the relationship between price and demand. However, while it serves as a useful tool for simulation and estimation, several factors could impact its accuracy:
 
-    Market Conditions: Changes in the economic environment, competition, or consumer preferences are not accounted for in the model.
-    Data Limitations: The model is based solely on historical price and demand data, without consideration for potential outliers or unrecorded variables that could affect demand.
-    Model Fit: Even though the Power model was the best among those tested, its average error rates (around 5.9%) suggest that there is still a significant margin of error.
-
-In summary, while the model provides a useful framework for understanding and predicting the price-demand relationship, it should be interpreted with an understanding of its limitations and supplemented with market insights and additional data where possible.
+* Market Conditions: Changes in the economic environment, competition, or consumer preferences are not accounted for in the model.
+* Data Limitations: The model is based solely on historical price and demand data, without consideration for potential outliers or unrecorded variables that could affect demand.
+* Model Fit: Even though the Power model was the best among those tested, its average error rates (around 5.9%) suggest that there is still a significant margin of error.
