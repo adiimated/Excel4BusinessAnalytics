@@ -83,7 +83,7 @@ We used Excel to insert trendlines into scatter plots of price vs. demand, testi
 
 * Linear: \[ y = mx + b \]
 * Power: \[ y = ax^b \]
-* \[ y = ae^{bx} \]
+* Exponential: \[ y = ae^{bx} \]
 
 From these, we determined that the Power model provided the best fit based on the average absolute percent error.
 
