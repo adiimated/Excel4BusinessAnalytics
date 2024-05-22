@@ -50,4 +50,59 @@ Based on the data table in the spreadsheet, at a 3% response rate, the company f
 #### How does the presence of uncertainty affect the usefulness of the model?
 
 The presence of uncertainty, especially in estimating response rates and variable costs, can significantly affect the model’s accuracy and reliability. If the actual figures deviate from the estimates (such as actual response rates being lower than estimated), the company could end up with unexpected financial outcomes. Uncertainty in the model requires careful risk management and possibly creating more conservative estimates or running multiple scenarios to cover a range of possible outcomes. This allows the company to better prepare for fluctuations and uncertainties in the actual campaign results.
-    
+
+
+## The 19th Hole Golf Club Pricing Analysis
+This project aims to analyze the pricing strategy for golf clubs sold by The 19th Hole, a golf outlet store in the US. By examining the relationship between price and demand, we will determine the optimal price to maximize profit while considering production costs.
+
+The 19th Hole wants to understand how the demand for its golf clubs varies with price to determine the optimal selling price that maximizes profit. The company is also interested in understanding how the optimal price is affected by the unit cost of producing the golf clubs.
+
+| Month | Price ($) | Demand (units in hundreds) |
+|-------|-----------|----------------------------|
+| 1     | 450       | 45                         |
+| 2     | 300       | 103                        |
+| 3     | 440       | 49                         |
+| 4     | 360       | 86                         |
+| 5     | 290       | 125                        |
+| 6     | 450       | 52                         |
+| 7     | 340       | 87                         |
+| 8     | 370       | 68                         |
+| 9     | 500       | 45                         |
+| 10    | 490       | 44                         |
+| 11    | 430       | 58                         |
+| 12    | 390       | 68                         |
+
+
+We are trying to answer these questions:
+
+* Assuming the unit cost of producing a set of clubs is $250, and the price must be a multiple of $10, what price should the company charge to maximize its profit?
+* How does the optimal price depend on the unit cost of producing a set of clubs?
+* Is the model an accurate representation of reality?
+
+We used Excel to insert trendlines into scatter plots of price vs. demand, testing three different models:
+
+* Linear: \[ y = mx + b \]
+* Power: \[ y = ax^b \]
+* \[ y = ae^{bx} \]
+
+From these, we determined that the Power model provided the best fit based on the average absolute percent error.
+
+### Answers:
+
+#### Assuming the unit cost of producing a set of clubs is $250, and the price must be a multiple of $10, what price should the company charge to maximize its profit?
+
+From the data table in the spreadsheet, the optimal price for maximizing profit when the unit cost is $250 per set of clubs appears to be $400. At this price, the calculated profit is $955,163.26, which is the highest among the prices tested. This result comes from the one-way data table analysis, which assessed various potential selling prices against their corresponding profits.
+
+#### How does the optimal price depend on the unit cost of producing a set of clubs?
+
+The two-way data table in the spreadsheet provides insight into how the optimal price point shifts with varying unit costs. From the analysis, it is evident that as the unit cost increases, the optimal price also tends to increase. This is due to the need to cover higher costs while still trying to maximize profit. For example, if the unit cost rises from $250 to $300, $350, or even $400, the corresponding optimal selling price increases, demonstrating a direct dependence of the selling price on the unit cost. However, it's also clear that increasing the unit cost reduces the overall profit, as the highest profits are observed at lower unit costs.
+
+#### Is the model an accurate representation of reality?
+
+The model used here, specifically the Power model chosen based on lower average absolute percent error, provides a reasonable approximation of the relationship between price and demand. However, while it serves as a useful tool for simulation and estimation, several factors could impact its accuracy:
+
+    Market Conditions: Changes in the economic environment, competition, or consumer preferences are not accounted for in the model.
+    Data Limitations: The model is based solely on historical price and demand data, without consideration for potential outliers or unrecorded variables that could affect demand.
+    Model Fit: Even though the Power model was the best among those tested, its average error rates (around 5.9%) suggest that there is still a significant margin of error.
+
+In summary, while the model provides a useful framework for understanding and predicting the price-demand relationship, it should be interpreted with an understanding of its limitations and supplemented with market insights and additional data where possible.
